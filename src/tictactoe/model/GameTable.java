@@ -14,14 +14,11 @@
  *    limitations under the License.
  */
 
-package tictactoe;
+package tictactoe.model;
 
 /**
  * 5taY3r
  * allinternet.io
  */
-public class DrawVerifier {
-    public boolean isDraw(final GameTable gameTable) {
-        return false;
-    }
+public class GameTable {
 }

@@ -14,14 +14,20 @@
  *    limitations under the License.
  */
 
-package tictactoe;
+package tictactoe.component;
+
+import tictactoe.model.GameTable;
 
 /**
  * 5taY3r
  * allinternet.io
  */
-public class UserMove {
-    public void make(final GameTable gameTable) {
+public class DataPrinter {
+    public void printMappingTable() {
+
+    }
+
+    public void printGameTable(final GameTable gameTable) {
 
     }
 }

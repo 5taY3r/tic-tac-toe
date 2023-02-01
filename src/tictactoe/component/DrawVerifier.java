@@ -14,18 +14,16 @@
  *    limitations under the License.
  */
 
-package tictactoe;
+package tictactoe.component;
+
+import tictactoe.model.GameTable;
 
 /**
  * 5taY3r
  * allinternet.io
  */
-public class WinnerVerifier {
-    public boolean isUserWin(final GameTable gameTable) {
-        return false;
-    }
-
-    public boolean isComputerWin(final GameTable gameTable) {
+public class DrawVerifier {
+    public boolean isDraw(final GameTable gameTable) {
         return false;
     }
 }

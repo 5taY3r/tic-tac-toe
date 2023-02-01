@@ -14,18 +14,20 @@
  *    limitations under the License.
  */
 
-package tictactoe;
+package tictactoe.component;
+
+import tictactoe.model.GameTable;
 
 /**
  * 5taY3r
  * allinternet.io
  */
-public class DataPrinter {
-    public void printMappingTable() {
-
+public class WinnerVerifier {
+    public boolean isUserWin(final GameTable gameTable) {
+        return false;
     }
 
-    public void printGameTable(final GameTable gameTable) {
-
+    public boolean isComputerWin(final GameTable gameTable) {
+        return false;
     }
 }
